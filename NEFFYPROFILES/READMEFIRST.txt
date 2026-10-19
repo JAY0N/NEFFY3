@@ -119,5 +119,3 @@ DO NOT SHARE OR UPLOAD THE SENDER PASSWORD there shouldnt be any information bey
 to access the Google Account. Keep it out of Git-Repositorys and any documents. 
 
 
-Some of the code is documented mainly the "System Standard"
-
