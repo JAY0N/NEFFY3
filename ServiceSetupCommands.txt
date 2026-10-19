@@ -1,0 +1,71 @@
+The Service executes a specific file on Start of the Raspberry Pi:
+
+In this case the Start.py file which allows to decide which programm the user wants to start and which data to send.
+You may need to edit the folderpath depending on the folder struture and the name of the Pi 
+
+
+
+Setup:
+# 
+create the service file type command into terminal: sudo nano /etc/systemd/system/start.service
+#
+#
+Paste (you may need to edit the path to the script you want to execute on start of the Rasperry Pi): 
+(Likly the name of the next Neffy isnt gonna be "neffy3" so the new path could look like "/home/neffy4/Neffy3/Start.py" as an example)
+#
+
+
+[Unit]
+Description=NEFFY Start Script
+Wants=sound.target
+After=sound.target
+
+[Service]
+Type=idle
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+Environment=SDL_AUDIODRIVER=pulse
+SupplementaryGroups=audio
+ExecStartPre=/bin/sleep 5
+ExecStart=/usr/bin/python3 /home/neffy3/Neffy3/Start.py
+WorkingDirectory=/home/neffy3/Neffy3
+User=neffy3
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+
+#
+If you terminate the Start.py over the panel to Exit after having used the correct Password the service automatically gets temporarilly stoped. 
+So you can edit or correct things if needed.
+
+
+Comands to stop the service:
+command to stop :  sudo systemctl stop start.service
+
+
+
+Service gets stopped and disabled so it will not be restarted if you reset the Raspberry Pi. 
+If you only stop the service it will be executed again after reset.
+
+Commands to stop and disable the service:
+Command to stop the service: sudo systemctl stop start.service
+Command to disable the service: sudo systemctl disable start.service
+
+
+
+Command to restart service:
+If you have stopped the service this command will restart it.
+Command to restart service: sudo systemctl restart start.service
+
+Reloads the service file:
+Command to reload file: sudo systemctl daemon-reload
+
+Status prüfen:
+sudo systemctl status start.service
+
+Logs ansehen: 
+sudo journalctl -u start.service -b

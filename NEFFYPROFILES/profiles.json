@@ -1,0 +1,32 @@
+{
+  "Mary": {
+    "language": "english",
+    "volume": 63,
+    "duration": 60,
+    "exercise": "left",
+    "custom_params": {
+      "move_up": 4,
+      "pause_top": 2,
+      "move_down": 4,
+      "pause_bottom": 2,
+      "audio": "assets_mp3/audio/middle.mp3"
+    },
+    "evaluation_enabled": false,
+    "audio_enabled": false
+  },
+  "BERT": {
+    "language": "français",
+    "volume": 91,
+    "duration": 180,
+    "exercise": "custom",
+    "evaluation_enabled": true,
+    "custom_params": {
+      "move_up": 4,
+      "pause_top": 2,
+      "move_down": 4,
+      "pause_bottom": 2,
+      "audio": "assets_mp3/audio\\Meditation.mp3"
+    },
+    "audio_enabled": true
+  }
+}

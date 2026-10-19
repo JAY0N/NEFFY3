@@ -1,0 +1,2 @@
+In der Datei design_system.py ist eine Referenz zu der jeweiligen conig datei. Derzeit ist "design_config5.json" ausgewählt wenn eine andere config 
+Datei ausgewählt werden soll muss das in dem design_system referenziert werden.

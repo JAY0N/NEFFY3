@@ -1,0 +1,91 @@
+{
+  "colors": {
+    "primary": [30, 30, 40],
+    "primary_hover": [50, 50, 65],
+    "secondary": [80, 80, 100],
+    "secondary_hover": [100, 100, 120],
+    "danger": [180, 40, 40],
+    "danger_hover": [220, 60, 60],
+    "accent": [0, 200, 200],
+    "accent_hover": [50, 220, 220],
+    "text": [230, 230, 240],
+    "text_muted": [150, 150, 170],
+    "text_dark": [30, 30, 40],
+    "success": [70, 180, 70],
+    "success_hover": [90, 200, 90],
+    "warning": [220, 160, 40],
+    "info": [60, 140, 200],
+    "info_hover": [80, 160, 220],
+    "panel_bg": [25, 25, 35],
+    "panel_bg_light": [40, 40, 55],
+    "panel_border": [60, 60, 80],
+    "slider_bg": [50, 50, 65],
+    "slider_fill": [0, 200, 200],
+    "slider_handle": [230, 230, 240],
+    "slider_handle_inner": [0, 200, 200],
+    "slider_track": [40, 40, 55],
+    "slider_fill_volume": [0, 200, 200],
+    "button_test": [60, 60, 80],
+    "button_test_hover": [80, 80, 100],
+    "button_start": [50, 140, 50],
+    "button_start_hover": [70, 160, 70],
+    "button_back": [180, 50, 50],
+    "button_back_hover": [200, 70, 70],
+    "button_confirm": [0, 180, 180],
+    "button_confirm_hover": [50, 200, 200],
+    "button_preview": [80, 80, 100],
+    "button_preview_hover": [100, 100, 120],
+    "list_bg": [35, 35, 45],
+    "list_hover": [55, 55, 70],
+    "list_selected": [0, 150, 150],
+    "scroll_bar": [0, 200, 200],
+    "overlay": [0, 0, 0],
+    "overlay_light": [50, 50, 70]
+  },
+  "gradients": {
+    "default": {"top": [30, 30, 40], "bottom": [20, 20, 30]},
+    "decision": {"top": [30, 30, 40], "bottom": [20, 20, 30]},
+    "duration": {"top": [30, 30, 40], "bottom": [20, 20, 30]},
+    "custom": {"top": [30, 30, 40], "bottom": [20, 20, 30]},
+    "language": {"top": [30, 30, 40], "bottom": [20, 20, 30]},
+    "greeting": {"top": [30, 30, 40], "bottom": [20, 20, 30]},
+    "homing": {"top": [30, 30, 40], "bottom": [20, 20, 30]},
+    "rating": {"top": [30, 30, 40], "bottom": [20, 20, 30]},
+    "restart": {"top": [30, 30, 40], "bottom": [20, 20, 30]},
+    "volume": {"top": [30, 30, 40], "bottom": [20, 20, 30]}
+  },
+  "border_radius": {"panel": 15, "button": 10, "slider": 10, "list_item": 5, "icon_frame": 20, "card": 20},
+  "fonts": {
+    "title": {"name": "Arial", "size_multiplier": 60, "bold": true},
+    "label": {"name": "Arial", "size_multiplier": 40, "bold": false},
+    "value": {"name": "Arial", "size_multiplier": 50, "bold": true},
+    "small": {"name": "Arial", "size_multiplier": 30, "bold": false},
+    "greeting_title": {"name": "Arial", "size_multiplier": 100, "bold": true},
+    "greeting_subtitle": {"name": "Arial", "size_multiplier": 60, "bold": false},
+    "volume_title": {"name": "Arial", "size_multiplier": 60, "bold": true}
+  },
+
+  "sizes": {
+    "slider_height": 20, "slider_width": 500, "handle_radius": 25,
+    "button_width": 200, "button_height": 60, "panel_width": 600,
+    "panel_height": 700, "icon_size": 120, "flag_size": 80,
+    "volume_icon_size": 220, "volume_small_icon_size": 80, "slider_knob_radius": 14
+  },
+  "spacing": {
+    "padding_large": 50, "padding_medium": 30, "padding_small": 10,
+    "margin_large": 50, "margin_medium": 20, "margin_small": 5,
+    "gap_large": 150, "gap_medium": 100, "gap_small": 50,
+    "volume_icon_offset": 60, "volume_slider_y": 0.45, "volume_icon_y": 0.22, "volume_buttons_y": 0.75
+  },
+  "animation": {
+    "hover_scale": 1.05, "animation_speed": 0.15, "fade_duration": 200,
+    "scroll_step": 40, "click_feedback_duration": 200
+  },
+  "ui": {
+    "alpha_normal": 80, "alpha_hover": 120, "alpha_selected": 140,
+    "alpha_overlay": 120, "alpha_disabled": 60, "alpha_button": 200
+  },
+  "audio": {
+    "preview_duration": 7000, "homing_duration": 4000, "greeting_timeout": 30000
+  }
+}
