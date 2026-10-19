@@ -170,8 +170,7 @@ Beispiel Installation Raspberry Pi
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-https://github.com/user-attachments/assets/cc4148de-f3cc-40a1-a074-8410ae8a1b80
-
+https://github.com/user-attachments/assets/b7732f68-9c49-47e9-9af5-cd7f98db69ee
 
 
 Service erstellen 
@@ -428,4 +427,6 @@ Hinweis zur Atemerkennung:
 Beispiel ganze Übung: NEFFY Standard 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-https://github.com/user-attachments/assets/ffb3ea81-8e0b-451f-aadb-58c38fe90987
+https://github.com/user-attachments/assets/201a2002-eb21-457f-9afe-e94f353b0a88
+
+
