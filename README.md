@@ -206,7 +206,6 @@ WorkingDirectory=/home/neffy3/Neffy3
 User=neffy3
 Restart=always
 RestartSec=5
-StartLimitIntervalSec=0
 
 
 [Install]
