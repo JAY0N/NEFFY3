@@ -25,7 +25,7 @@ Type=idle
 Environment=XDG_RUNTIME_DIR=/run/user/1000
 Environment=SDL_AUDIODRIVER=pulse
 SupplementaryGroups=audio
-ExecStartPre=/bin/sleep 5
+ExecStartPre=/bin/sleep 15
 ExecStart=/usr/bin/python3 /home/neffy3/Neffy3/Start.py
 WorkingDirectory=/home/neffy3/Neffy3
 User=neffy3
