@@ -216,7 +216,7 @@ WantedBy=multi-user.target
 
 #
 3: 
-Wenn man über ```Exit die Startauswahl``` verlässt, wird der Service temporär gestoppt, damit Änderungen vorgenommen werden können und der Service nicht sofort wieder ausgeführt wird.
+Wenn man über ```Exit``` die Startauswahl verlässt, wird der Service temporär gestoppt, damit Änderungen vorgenommen werden können und der Service nicht sofort wieder ausgeführt wird.
 #
 Zusätzliche Befehle:
 #
@@ -229,6 +229,9 @@ Disable Service: ```sudo systemctl disable start.service```
 Restart Service: ```sudo systemctl restart start.service```
 #
 Reload Service: ```sudo systemctl daemon-reload```
+#
+Enable Service: ```sudo systemctl enable start.service```
+
 #
 Status prüfen: ```sudo systemctl status start.service```
 #
